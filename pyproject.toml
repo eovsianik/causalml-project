@@ -1,0 +1,16 @@
+[project]
+name = "casual"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "category-encoders>=2.6.4",
+    "ibis-framework[duckdb]>=9.5.0",
+    "imblearn>=0.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.2",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.5.2",
+    "xgboost>=2.1.2",
+]
